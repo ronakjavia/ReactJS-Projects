@@ -1,0 +1,72 @@
+/* App CSS */
+#box{
+  background-color: #333;
+  padding: 50px 200px;
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 2px 5px;
+}
+#name{
+  font-size: 60px;
+  padding: 20px;
+  padding-bottom: 30px;
+  color: #44c0b6;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* TodoInput CSS */
+.input{
+  margin: 10px 20px;
+}
+
+input::placeholder{
+  font-size: 15px;
+  font-weight: 600;
+}
+#inputText, #btn{
+  margin: 5px 0px;
+  border: none;
+  border-radius: 25px;
+  margin-right: 20px;
+  padding: 10px 25px;
+}
+
+#btn{
+  color: #42c8bd;
+  background-color: #154541;
+  font-size: 15px;
+}
+
+/* TodoList CSS */
+#noData{
+  font-size: 20px;
+  font-weight: 400;
+  color: #cf972e;
+}
+
+.ul{
+  padding-top: 30px
+}
+
+.todolist{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.li{
+    list-style-type: none;
+}
+
+.btn{
+  background-color: #333;
+}
